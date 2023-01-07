@@ -1,0 +1,168 @@
+/* Burada body alani arka plani yesilimsi olarak degistirilecek */
+
+body{
+    /*
+background-color: yellowgreen;
+background-image: url('cocuklar.webp');
+background-repeat: no-repeat;
+background-position: right top;
+*/
+
+background-attachment: fixed;
+
+background: yellowgreen url('cocuklar.webp') no-repeat right top fixed
+}
+
+p{
+    color: rgb(113, 113, 56);
+    background-color: rgb(126, 126, 27);
+    text-align: justify;
+    text-indent: 50px;
+    word-spacing: 10px;
+    letter-spacing: 0.1cm;
+    line-height: 5mm;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.p1{
+    font-size: 101%;
+    background-color: wheat;
+    border-left-color: red;
+    border-top-color: blue;
+    border-right-color: darkgreen;
+
+    border-left-width: 5px;
+    border-top-width: 10px;
+    border-right-width: 15px;
+
+    border-left-style: solid;
+    border-top-style: dashed;
+    border-right-style: dotted;
+
+
+}
+
+.ozelp{
+color: rgb(85, 85, 40);
+
+}
+#pId{
+
+color: rgb(53, 53, 13);
+text-align: center;
+
+}
+a{
+
+padding: 5px;
+margin: 5px;
+background-color: yellow;
+}
+
+.ozela{
+    text-decoration: none;
+}
+
+.ozela:link{
+    background-color: azure;
+}
+.ozela:visited{
+    background-color: aqua;
+}
+.ozela:hover{
+    background-color: crimson;
+}
+.ozela:active{
+    background-color: indigo;
+}
+.ozela1{
+text-transform: uppercase;
+
+}
+ul{
+    background-color: goldenrod;
+}
+
+li{
+    background-color: aqua;
+    margin: 5px;
+}
+
+.ul-kare{
+    list-style-type: square;
+    list-style-position: inside;
+    border: brown solid 5px;
+    outline: solid 5px blue;
+    margin: 10px 20px ;
+    padding: 10px 20px ;
+}
+.ul-decimal{
+    list-style-type: decimal;
+    border: brown dotted 5px;
+
+    outline-style: dotted;
+    outline-width: 5px;
+    outline-color: red;
+    margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+}
+.ul-decimal, .ul-roman, p{
+    font-size: large;
+}
+
+div .p-onemli{
+background-color: yellow;
+
+}
+
+.ul-roman{
+    list-style-type: upper-roman;
+    border: brown dashed 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+
+}
+
+.ul-greek{
+    list-style-type: lower-greek;
+    border: brown double 5px;
+}
+
+.ul-ermeni{
+    list-style-type: armenian;
+    border: brown ridye 5px;
+}
+
+.ul-alfa{
+    list-style-type: upper-alpha;
+    border: brown inset 5px;
+}
+
+.ul-georgian{
+    list-style-type: georgian;
+    border: brown outset 5px;
+}
+.ul-latin{
+    list-style: lower-latin;
+    border-width: 5px;
+    border-color: brown;
+    border-style: solid;
+
+}
+.ul-circle{
+    list-style-type: circle;
+}
+
+table{
+    border-collapse: collapse;
+}
